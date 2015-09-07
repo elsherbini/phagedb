@@ -1,0 +1,16 @@
+<table class="table table-striped table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each phage}}
+    <tr>
+      <th scope="row">{{@key}}</th>
+      <td><a href='#/phage/{{@key}}/{{this}}'>{{this}}</a></td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

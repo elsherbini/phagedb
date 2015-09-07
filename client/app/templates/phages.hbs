@@ -1,0 +1,16 @@
+<table class="table table-striped table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>PPA ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each phages}}
+    <tr>
+      <th scope="row"><a href='#/phage/{{this.ppa}}'>{{this.ppa}}</a></th>
+      <td>{{this.name}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

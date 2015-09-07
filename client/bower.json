@@ -1,0 +1,29 @@
+{
+  "name": "gistgallery",
+  "version": "0.0.1",
+  "description": "a better way to browse gists",
+  "authors": [
+    "joseph elsherbini <joseph.elsherbini@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": ">=1.1.2",
+    "bootstrap": ">=3.1.1",
+    "handlebars": "~3.0.3",
+    "requirejs": ">=2.1.11",
+    "text": "requirejs-text#~2.0.14"
+  }
+}

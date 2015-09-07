@@ -1,0 +1,7 @@
+server/*.csv
+*.ipynb
+.ipynb_checkpoints
+client/.tmp/*
+client/app/components/
+node_modules/
+
